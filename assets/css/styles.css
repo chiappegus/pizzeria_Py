@@ -41,18 +41,23 @@ main .container{
 }
 
 .container .historia-local {
-        background-image: url(https://images.pexels.com/photos/5792322/pexels-photo-5792322.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    color: antiquewhite;
+    background-image: url(../css/fondo.png);
     background-size: cover;
     background-position: center;
+    
 
     grid-area:historia-local;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .container .historia-local1 {
-
+    color: antiquewhite;
+    background-image: url(../css/fondo.png);
+    background-size: cover;
+    background-position: center;
     grid-area:historia-local1;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .container .imagen1 {
@@ -84,12 +89,7 @@ main .container{
 }
 
 .movie-item-img  {
- 
-  
-    
      width: 100vh;
      height: 40vw;
-   
-
 }
 
