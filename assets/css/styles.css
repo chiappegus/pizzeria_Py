@@ -1,0 +1,87 @@
+main .container{
+    /* height: 100vh;
+    background-color: grey; */
+    display: grid;
+    gap: 4px;
+    grid-template-columns: 1fr repeat(6, 2fr); 
+    grid-template-areas:
+    'nav-lateral	titulo 	titulo 	titulo 	titulo 	titulo 	titulo'
+    'nav-lateral	historia-local	historia-local	historia-local	historia-local	historia-local	historia-local'
+    'nav-lateral	historia-local	historia-local	historia-local	historia-local	historia-local	historia-local'
+    'nav-lateral	imagen1	imagen1	imagen1	imagen2	imagen2	imagen2'
+    'nav-lateral	imagen1	imagen1	imagen1	imagen2	imagen2	imagen2'
+    'nav-lateral	imagen1	imagen1	imagen1	imagen2	imagen2	imagen2'
+    'nav-lateral	imagen1	imagen1	imagen1	imagen2	imagen2	imagen2'
+    'nav-lateral	historia-local1	historia-local1	historia-local1	historia-local1	historia-local1	historia-local1'
+    'nav-lateral	historia-local1	historia-local1	historia-local1	historia-local1	historia-local1	historia-local1'
+    'nav-lateral	imagen3	imagen3	imagen3	imagen4	imagen4	imagen4'
+    'nav-lateral	imagen3	imagen3	imagen3	imagen4	imagen4	imagen4'
+    'nav-lateral	imagen3	imagen3	imagen3	imagen4	imagen4	imagen4'
+    'nav-lateral	imagen3	imagen3	imagen3	imagen4	imagen4	imagen4'
+    ;
+   text-align: center;
+  
+
+}
+
+.container .nav-lateral {
+
+    grid-area:nav-lateral;
+    background-color: red;
+}
+
+.container .titulo {
+
+    grid-area:titulo;
+    background-color: orange;
+}
+
+.container .historia-local {
+
+    grid-area:historia-local;
+    background-color: blueviolet;
+}
+
+.container .historia-local1 {
+
+    grid-area:historia-local1;
+    background-color: blueviolet;
+}
+
+.container .imagen1 {
+    grid-area: imagen1;
+    /* background-color: aqua; */
+   
+    
+}
+
+.container .imagen2 {
+
+    grid-area: imagen2;
+    
+}
+.container .imagen3 {
+
+    grid-area: imagen3;
+    
+   
+}
+
+
+.container .imagen4 {
+
+    grid-area: imagen4;
+    
+
+   
+}
+
+.movie-item-img  {
+ 
+  
+
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
