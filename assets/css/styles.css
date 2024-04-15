@@ -1,6 +1,7 @@
 main .container{
     /* height: 100vh;
     background-color: grey; */
+    
     display: grid;
     gap: 4px;
     grid-template-columns: 1fr repeat(6, 2fr); 
@@ -20,6 +21,11 @@ main .container{
     'nav-lateral	imagen3	imagen3	imagen3	imagen4	imagen4	imagen4'
     ;
    text-align: center;
+   justify-items: stretch;
+   align-content: center;
+   justify-content: space-between;
+   align-items: stretch;
+
   
 
 }
@@ -54,7 +60,7 @@ main .container{
 .container .historia-local1 {
     color: antiquewhite;
     background-image: url(../css/fondo.png);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     grid-area:historia-local1;
     /* background-color: blueviolet; */
@@ -89,7 +95,8 @@ main .container{
 }
 
 .movie-item-img  {
-     width: 100vh;
-     height: 40vw;
+     width: 90%;
+     height: 90%;
+     
 }
 
