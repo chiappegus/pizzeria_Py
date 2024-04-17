@@ -24,10 +24,12 @@ main .container{
     'nav-lateral	imagen3	imagen3	imagen3	imagen4	imagen4	imagen4'
     ;
    text-align: center;
-   justify-items: stretch;
    align-content: center;
    justify-content: space-between;
+   justify-items: stretch;
    align-items: stretch;
+
+   
 
   
 
@@ -73,11 +75,11 @@ main .container{
     grid-area: imagen1;
     /* background-color: aqua; */
     /* justify-items: stretch; */
-    align-content: center;
+    /* align-content: center; */
     /* justify-items: stretch;  */
     
     /* justify-content: space-between; */
-    justify-items: stretch;
+    /* justify-items: stretch; */
     height: 600px;
     
     
@@ -88,15 +90,15 @@ main .container{
 .container .imagen2 {
 
     grid-area: imagen2;
-    align-content: center;
-    justify-items: stretch;
+    /* align-content: center; */
+    /* justify-items: stretch; */
     height: 600px;
 }
 .container .imagen3 {
 
     grid-area: imagen3;
-    align-content: center;
-    justify-items: stretch;
+    /* align-content: center; */
+    /* justify-items: stretch; */
     height: 600px;
    
 }
@@ -105,9 +107,9 @@ main .container{
 .container .imagen4 {
 
     grid-area: imagen4;
-    align-content: center;
+    /* align-content: center; */
     /* justify-items: stretch;  */
-    justify-items: stretch;
+    /* justify-items: stretch; */
     height: 600px;
 
    
