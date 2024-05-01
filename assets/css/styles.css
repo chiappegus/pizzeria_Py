@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(./fondo2.jpg);
+}
+
+main {
+    color: #f0ebd8;
+    text-align: center;
+}
+
 main .container{
     /* height: 100vh;
     width: 100vw; */
@@ -28,6 +39,7 @@ main .container{
    justify-content: space-between;
    justify-items: stretch;
    align-items: stretch;
+   color: antiquewhite;
 
    
 
@@ -46,7 +58,6 @@ main .container{
 
 .container .titulo {
     
-
     grid-area:titulo;
     background-color: orange;
 }
@@ -130,22 +141,20 @@ section {
     justify-content: center;
     text-align: center;
     align-items: baseline;
+    color: #f0ebd8;
   }
 
 body {
     background-image: url(./fondo2.jpg);
-
+    color:antiquewhite;
 }
-
-p {
+.nav-link {
     color: #f0ebd8;
+    align-content: center;
 }
-form {
+.card {
     color: #f0ebd8;
 }
 h2 {
-    color: #f0ebd8;
-}
-h1 {
-    color: #f0ebd8;
+    text-align: center;
 }

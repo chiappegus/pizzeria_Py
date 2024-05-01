@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
-    <header>
+    <header id="arriba">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="../media/logo2.jpeg" alt="logo"></a>
+              <a class="navbar-brand" href="/index.html"><img src="../media/logo2.jpeg" alt="logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -24,14 +24,18 @@
                     <a class="nav-link" href="./variedades.html">Variedades</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#" textalign="rigth">Iniciar sesión</a>
+                    <a class="nav-link" href="#crear-cuenta">Crear cuenta</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#iniciar-sesion" textalign="rigth">Iniciar sesión</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
-    <form class="row g-3">
+    <form id="crear-cuenta" class="row g-3">
+      <h2>Registrarse</h2>
       <div class="col-md-6">
         <label for="inputCity" class="form-label">Nombre</label>
         <input type="text" class="form-control" id="inputCity" placeholder="Ingresa tu nombre">
@@ -80,14 +84,32 @@
           <button type="submit" class="btn btn-primary">Confirmar Registro</button>
         </div>
       </form>
+      <form>
+        <h2 id="iniciar-sesion">Iniciar Sesión</h2>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email registrado</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Recordar datos</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+      </form>
       <footer>
         <div class="card text-center">
           <div class="card-header">
              Codepy - Pizzeria
           </div>
           <div class="card-body">
-            <h5 class="card-title">☎ +54 11 66073448</h5>
+            <h5 class="card-title">☏ +54 11 66073448</h5>
             <p class="card-text">✉ info@pizza-codepy.com.ar</p>
+            <p class="card-text">Lun a Vie de 9 a 22 hs <br>Sábados de 9 a 20</p>
             <button type="button" class="btn btn-outline-secondary"><a href="#arriba">Volver Arriba</a></button>
           <div class="card-footer text-body-secondary">
             Gracias por visitarnos ♥ Volvé pronto
