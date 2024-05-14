@@ -143,7 +143,12 @@ section {
     align-items: baseline;
     color: #f0ebd8;
   }
-
+  @media screen and (max-width: 540px){
+    img{
+        width: 100%;
+    }
+}
+  
 body {
     background-image: url(./fondo2.jpg);
     color:antiquewhite;
