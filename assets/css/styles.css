@@ -161,17 +161,19 @@ main .container{
         text-align: center;
         align-items: baseline;
         color: #f0ebd8;
-
-
       }
+      main .container{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
 @media screen and (max-width: 500px){
-    main .container{
+    /* main .container{
         display: flex;
         flex-direction: column;
-    }
+    } */
     .container .historia-local1 {
       display: none;
     }
