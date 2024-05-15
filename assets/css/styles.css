@@ -134,7 +134,40 @@ main .container{
 }
 
 
+
+@media screen and (max-width: 982px){
+      .nav-lateral{
+        display: none;
+      }
+      .container .historia-local {
+        display: none;
+      }
+      #navbarTogglerDemo01 {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        text-align: center;
+        align-items: baseline;
+        color: #f0ebd8;
+
+
+      }
+}
+
+
+@media screen and (max-width: 500px){
+    
+    .container .historia-local1 {
+      display: none;
+    }
+   
+}
+
+
+
+
 section {
+    padding: 2em;
     display: flex;
     flex-flow: row nowrap;
     /*abreviado*/
@@ -143,11 +176,57 @@ section {
     align-items: baseline;
     color: #f0ebd8;
   }
-  @media screen and (max-width: 540px){
+
+
+ 
+
+
+  @media screen and (max-width: 982px){
     img{
-        width: 100%;
+       
+        height: auto;
+        width: auto;
     }
+    #navbarNavDropdown {
+       
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        text-align: center;
+        align-items: baseline;
+      
+      }
+      section p {
+        display: none;
+      }
 }
+
+@media only screen and (max-width: 400px) {
+    
+   
+    section {
+        
+        display: flex;
+        flex-flow: column;
+        /*abreviado*/
+        justify-content: center;
+        text-align: center;
+        align-items: baseline;
+        color: #f0ebd8;
+      }
+ 
+    #navbarNavDropdown {
+       
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        text-align: center;
+        align-items: baseline;
+        color: #f0ebd8;
+      }
+    
+
+  }
   
 body {
     background-image: url(./fondo2.jpg);
