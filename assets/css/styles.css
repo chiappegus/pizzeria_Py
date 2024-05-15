@@ -168,9 +168,19 @@ main .container{
 
 
 @media screen and (max-width: 500px){
-    
+    main .container{
+        display: flex;
+        flex-direction: column;
+    }
     .container .historia-local1 {
       display: none;
+    }
+
+    .container .imagen2 {
+        display: none;
+    }
+    .container .imagen4 {
+        display: none;
     }
    
 }
