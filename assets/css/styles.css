@@ -156,7 +156,7 @@ main .container{
       }
       #navbarTogglerDemo01 {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow:  nowrap;
         justify-content: center;
         text-align: center;
         align-items: baseline;
@@ -181,12 +181,15 @@ main .container{
 section {
     padding: 2em;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: nowrap ;
     /*abreviado*/
     justify-content: center;
     text-align: center;
     align-items: baseline;
     color: #f0ebd8;
+    row-gap: 4px;
+    column-gap: 8px;
+    /* o gap: 4px 8px; */
   }
 
 
