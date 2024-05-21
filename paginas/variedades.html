@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Variedades ● Codepy Pizzas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<script src="../js/js.js"></script>
+<body>
+
+  <header id="arriba">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../media/logo2.jpeg" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/registro.html">Crear Cuenta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/registro.html">Iniciar sesión</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <main>
+  <h1 class="animate__animated animate__pulse">Variedad de Sabores</h1>
+  <section>
+      <article>
+          <img src="../media/pizza-muzza.png">
+          <h2>Muzzarella</h2>
+          <p>Disfruta de nuestra irresistible pizza de mozzarella, elaborada con la combinación perfecta de queso derretido y salsa de tomate casera sobre una masa crujiente y sabrosa. Una experiencia inigualable de sabor italiano en cada bocado. ¡Ven y prueba la auténtica delicia de nuestra pizzería!</p>
+          <button id="muzzarella" type="button" class="btn btn-outline-secondary" onclick="muzzarella()" value="Muzzella">Agregar al carrito</button>
+          <p id="cantidad">Cantidad solicitada: <input type="text" class="inputPizzas" id="muzzarella_count" value=0 >  </p>
+      </article>
+      <article>
+          <img src="../media/pizza-napolitana.jpg">
+          <h2>Napolitana</h2>
+          <p>Disfruta de nuestra deliciosa pizza napolitana, con auténtico queso mozzarella, tomates frescos y albahaca fragante, todo sobre una masa fina y crujiente, horneada a la perfección en nuestro horno de piedra. ¡Una experiencia gastronómica italiana inigualable en cada bocado!</p>
+          <button type="button" class="btn btn-outline-secondary" onclick="napolitana()" value="napolitana">Agregar al carrito</button>
+           <p id="cantidad">Cantidad solicitada: <input type="text"  class="inputPizzas" id="napolitana_count" value=0  >  </p>
+      </article>
+      <article>
+          <img src="../media/pizza-4quesos.jpg">
+          <h2>Cuatro Quesos</h2>
+          <p>Disfruta de nuestra exquisita pizza de cuatro quesos, con una mezcla perfecta de mozzarella, parmesano, gorgonzola y provolone sobre una masa artesanalmente horneada, creando una explosión de sabor irresistible en cada porción. ¡Una delicia gourmet que te encantará!</p>
+          <small>*Se puede adicionar</small>
+          <button type="button" class="btn btn-outline-secondary" onclick="quesos()" value="quesos">Agregar al carrito</button>
+           <p id="cantidad">Cantidad solicitada: <input type="text"  class="inputPizzas" id="quesos_count" value=0  >  </p>
+      </article>
+  </section>
+  <section>
+      <article>
+          <img src="../media/pizza-anchoas.JPG">
+          <h2>Anchoas</h2>
+          <p>Prueba nuestra irresistible pizza de anchoas, con filetes de anchoas premium sobre una base de salsa de tomate y queso mozzarella, todo horneado a la perfección en nuestra masa crujiente. ¡Un manjar marinero que te transportará al Mediterráneo en cada bocado!</p>
+          <button type="button" class="btn btn-outline-secondary" onclick="anchoas()" value="anchoas">Agregar al carrito</button>
+           <p id="cantidad">Cantidad solicitada: <input type="text"  class="inputPizzas" id="anchoas_count" value=0  >  </p>
+      </article>
+      <article>
+          <img src="../media/pizza-calabresa.JPG">
+          <h2>Calabresa</h2>
+          <p>Dejate envolver por nuestra pizza Calabresa, una sinfonía de sabores con salchicha Calabresa especiada, mozzarella cremoso, y salsa de tomate casera en nuestra masa artesanal. Cada mordisco revela la profundidad de la gastronomía italiana. ¡Descubrí esta joya culinaria!</p>
+          <button type="button" class="btn btn-outline-secondary" onclick="calabresa()" value="calabresa">Agregar al carrito</button>
+           <p id="cantidad">Cantidad solicitada: <input type="text"  class="inputPizzas" id="calabresa_count" value=0  >  </p>
+      </article>
+      <article>
+          <img src="../media/pizza-jamonYmorron.jpg">
+          <h2>Jamón y Morrón</h2>
+          <p>Probá nuestra pizza Jamón y Morrones: jamón selecto y morrones asados en masa artesanal. Este clásico argentino equilibra la dulzura de los morrones con el ahumado del jamón, creando una sinfonía de sabores. Una verdadera obra culinaria</p>
+          <button type="button" class="btn btn-outline-secondary" onclick="jamonYmorron()" value="jamonYmorron">Agregar al carrito</button>
+           <p id="cantidad">Cantidad solicitada: <input type="text"  class="inputPizzas" id="jamonYmorron_count" value=0  >  </p>
+      </article>
+  </section>
+
+
+
+
+     
+
+
+
+</main>
+<footer>
+  <div class="card text-center">
+    <div class="card-header">
+       Codepy - Pizzeria
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">☏ +54 11 66073448</h5>
+      <p class="card-text">✉ info@pizza-codepy.com.ar</p>
+      <p class="card-text">Lun a Vie de 9 a 22 hs <br>Sábados de 9 a 20</p>
+      <button type="button" class="btn btn-outline-secondary"><a href="#arriba">Volver Arriba</a></button>
+    <div class="card-footer text-body-secondary">
+      Gracias por visitarnos ♥ Volvé pronto
+    </div>
+    </div>
+</footer>
+
+</body>
+</html>

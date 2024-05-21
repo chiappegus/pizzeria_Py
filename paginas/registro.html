@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro ● Codepy Pizzas </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header id="arriba">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/index.html"><img src="../media/logo2.jpeg" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./variedades.html">Variedades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#crear-cuenta">Crear cuenta</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#inicio_sesion.html" textalign="rigth">Iniciar sesión</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <form id="crear-cuenta" class="row g-3">
+      <h2 class="animate__animated animate__pulse">Registrarse</h2>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="inputCity" placeholder="Ingresa tu nombre">
+      </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="ej: juan@gmail.com">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Direeción</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Ingresar Dirección">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="ej: Belgrano">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Recibir Ofertas y Novedades</label>
+          <select id="inputState" class="form-select">
+            <option selected>Elegir opción...</option>
+            <option>Sí</option>
+            <option>No me interesa</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">CP</label>
+          <input type="text" class="form-control" id="inputZip" placeholder="ej: 1428">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Ingresar Contraseña">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Confirmar Contraseña</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Confirmar Contraseña">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">Recordar datos
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Confirmar Registro</button>
+        </div>
+      </form>
+      
+      </footer> 
+</body>
+</html>
