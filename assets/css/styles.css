@@ -336,4 +336,18 @@ h2 {
 	display: none;
 }
 
+.inputPizzas{
+    color: #f0ebd8;
+}
 
+
+input{
+    color: #f0ebd8;
+}
+
+.form-control{
+
+    color: #f0ebd8 !important;
+}
+
+}
