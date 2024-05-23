@@ -267,6 +267,7 @@ body {
 .nav-link {
     color: #f0ebd8;
     align-content: center;
+    text-align: center;
 }
 .card {
     color: #f0ebd8;
@@ -350,3 +351,6 @@ input{
     color: #f0ebd8 !important;
 }
 
+h1 {
+    text-align: center;
+}
