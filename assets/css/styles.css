@@ -227,7 +227,7 @@ section {
         display: none;
       }
 
-      #cantidad{
+      .cantidad{
         display: flex;
         
       }
